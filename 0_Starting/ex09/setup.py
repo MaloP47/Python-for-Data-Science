@@ -10,7 +10,7 @@ setup(
     author='mpeulet',
     author_email='mpeulet@student.42.fr',
     url='https://github.com/MaloP47',
-    find_packages=find_packages(),
+    packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3.10',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
