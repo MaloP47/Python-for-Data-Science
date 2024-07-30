@@ -17,7 +17,7 @@ def main():
         print(slice_me(family, 1, -2))
         # print(slice_me(family, 1.0, -2))
 
-    except AssertionError as e:
+    except Exception as e:
         print(f'Error: {e}')
 
 
