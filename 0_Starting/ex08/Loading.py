@@ -12,6 +12,8 @@ def toTime(seconds: int) -> str:
 
 def ft_tqdm(lst: range) -> None:
     """The function"""
+    if not isinstance(lst, range):
+        raise Exception("Wrong type")
     spe = '█'
     rangeLen = len(lst)
     start = time.time()
