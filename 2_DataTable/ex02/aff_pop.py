@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def dataToFloat(value) -> float:
+    """Convert value to float"""
     if isinstance(value, str):
         value = value.lower()
         if value.endswith('k'):
