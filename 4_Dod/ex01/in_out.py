@@ -1,4 +1,4 @@
-"""4_Dod ex00"""
+"""4_Dod ex01"""
 
 
 def square(x: int | float) -> int | float:
@@ -12,10 +12,11 @@ def pow(x: int | float) -> int | float:
 
 
 def outer(x: int | float, function) -> object:
+    """Outer"""
     count = 0
 
     def inner() -> float:
-        """outer & inner"""
+        """Inner"""
         nonlocal count
         count += 1
         result = x
