@@ -1,4 +1,4 @@
-"""Filter function rewrote"""
+"""Filter function rewrite"""
 
 
 def ft_filter(function, iterable):
