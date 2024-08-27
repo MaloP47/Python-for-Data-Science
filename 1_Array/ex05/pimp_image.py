@@ -44,7 +44,8 @@ def ft_grey(array: np.array) -> np.array:
     r = img[:, :, 0] // 3
     g = img[:, :, 1] // 3
     b = img[:, :, 2] // 3
-    grey = r + g + b
+    grey = np.add(np.add(r, g), b)
+    # grey = r + g + b
     greyImg = np.stack([grey, grey, grey], axis=2)
     Image.fromarray(greyImg.astype(np.uint8)).save('./modified/grey.jpg')
     # im = Image.fromarray(img)
