@@ -10,7 +10,8 @@ def load(path: str) -> pd.DataFrame:
     if not isinstance(path, str):
         raise Exception("wrong type")
     if not os.path.isfile(path):
-        raise Exception(f"invalid parameter : {path}")
+        # raise Exception(f"invalid parameter : {path}")
+        return None
     if not path.endswith('.csv'):
         raise Exception("The file must have a .csv extension.")
     if not os.access(path, os.R_OK):
