@@ -20,7 +20,7 @@ def main():
         plt.yticks(range(30, 100, 10))
         plt.ylabel('Life expectancy')
         plt.legend(loc='center right')
-        p = '/mnt/c/Users/Malo/OneDrive/Documents/PythonMatplot/life.png'
+        p = './life.png'
         plt.savefig(p)
 
     except Exception as e:

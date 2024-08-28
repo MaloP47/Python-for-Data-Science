@@ -22,7 +22,7 @@ def main():
         plt.xticks(ticks=[300, 1000, 10000], labels=['300', '1k', '10k'])
         plt.ylabel('Life Expectancy')
         plt.grid(True)
-        p = '/mnt/c/Users/Malo/OneDrive/Documents/PythonMatplot/1900.png'
+        p = './1900.png'
         plt.savefig(p)
 
     except Exception as e:

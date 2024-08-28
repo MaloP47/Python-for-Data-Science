@@ -54,7 +54,7 @@ def dataToFloat(value) -> float:
 
 #         plt.legend(loc='lower right')
 
-#         p = '/mnt/c/Users/Malo/OneDrive/Documents/PythonMatplot/FrVsOth.png'
+#         p = './FrVsOth.png'
 #         plt.savefig(p)
 
 #     except Exception as e:
@@ -101,7 +101,7 @@ def main():
 
         plt.legend(loc='lower right')
 
-        p = '/mnt/c/Users/Malo/OneDrive/Documents/PythonMatplot/FrVsO.png'
+        p = './FrVsO.png'
         plt.savefig(p)
 
     except Exception as e:
